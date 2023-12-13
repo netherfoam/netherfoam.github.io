@@ -1,0 +1,15 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Dirk Jamieson'
+
+theme = "m10c"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+
+[[params.social]]
+  icon = "github"
+  name = "My GitHub"
+  url = "https://github.com/netherfoam"
