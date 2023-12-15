@@ -1,7 +1,7 @@
 +++
 title = 'Workforce Mobility'
 date = 2016-01-01
-draft = true
+draft = false
 +++
 
 ## Role

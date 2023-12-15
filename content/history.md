@@ -1,7 +1,7 @@
 +++
 title = 'Work History'
 date = 2023-12-13T11:59:54+10:00
-draft = true
+draft = false
 +++
 
 #### FireSight (2023, 6 month contract)

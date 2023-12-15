@@ -1,7 +1,7 @@
 +++
 title = 'Dirk Jamieson'
 date = 2023-12-13T11:59:54+10:00
-draft = true
+draft = false
 +++
 
 ### Backend Software Engineer

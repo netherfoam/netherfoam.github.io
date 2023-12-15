@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://example.org/categories/</loc>
-  </url><url>
-    <loc>https://example.org/</loc>
-  </url><url>
-    <loc>https://example.org/tags/</loc>
-  </url>
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://netherfoam.github.io/contact/</loc><lastmod>2023-12-13T11:59:54+10:00</lastmod></url><url><loc>https://netherfoam.github.io/</loc><lastmod>2023-12-13T11:59:54+10:00</lastmod></url><url><loc>https://netherfoam.github.io/skills/</loc><lastmod>2023-12-13T11:59:54+10:00</lastmod></url><url><loc>https://netherfoam.github.io/history/</loc><lastmod>2023-12-13T11:59:54+10:00</lastmod></url><url><loc>https://netherfoam.github.io/projects/historisk/</loc><lastmod>2023-09-01T00:00:00+00:00</lastmod></url><url><loc>https://netherfoam.github.io/projects/</loc><lastmod>2023-09-01T00:00:00+00:00</lastmod></url><url><loc>https://netherfoam.github.io/projects/convexion/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod></url><url><loc>https://netherfoam.github.io/projects/workforce_mobility/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod></url><url><loc>https://netherfoam.github.io/projects/document_management/</loc><lastmod>2015-05-11T00:00:00+00:00</lastmod></url><url><loc>https://netherfoam.github.io/projects/runescape/</loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url><url><loc>https://netherfoam.github.io/projects/bukkit/</loc><lastmod>2012-01-01T00:00:00+00:00</lastmod></url><url><loc>https://netherfoam.github.io/projects/maxgamer/</loc><lastmod>2010-01-01T00:00:00+00:00</lastmod></url><url><loc>https://netherfoam.github.io/categories/</loc></url><url><loc>https://netherfoam.github.io/tags/</loc></url></urlset>

@@ -1,7 +1,7 @@
 +++
 title = 'MaxGamer'
 date = 2010-01-01
-draft = true
+draft = false
 +++
 
 ![](/projects/MaxGamer.png)
