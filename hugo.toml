@@ -4,12 +4,48 @@ title = 'Dirk Jamieson'
 
 theme = "m10c"
 
-[[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts/"
+[params]
+  avatar = "/profile_picture.jpeg"
+  description = "A Software Engineer, with experience in Java, Spring, Python, Xarray and GIS"
+  favicon = "/netherfoam.png"
 
-[[params.social]]
-  icon = "github"
-  name = "My GitHub"
-  url = "https://github.com/netherfoam"
+  [[params.social]]
+    icon = "github"
+    name = "My GitHub"
+    url = "https://github.com/netherfoam"
+
+  [[params.social]]
+    icon = "linkedin"
+    name = "My LinkedIn"
+    url = "https://www.linkedin.com/in/dirkjamieson/"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "history"
+    name = "Career"
+    url = "/history"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "skills"
+    name = "Skills"
+    url = "/skills"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
