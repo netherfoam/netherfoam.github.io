@@ -6,7 +6,7 @@ draft = false
 
 ![](/projects/MaxGamer.png)
 
-This was a community I operated and moderated between 2010-2014. It was a
+This was a community I operated and moderated between 2011-2014. It was a
 Minecraft server that started with some local players from my friend circle
 that were looking for a community to play with. After opening it up to the
 public, the community reached 75,000 unique registrations after its 5 year
@@ -38,3 +38,10 @@ These included tools for:
 * Player to player item sales and transfers through in-game currency
 
 A number of these were even published on [Bukkit](/projects/bukkit/)!
+
+Eventually, I handed over the community to another player and moved on to
+working full-time. The community is no longer active, but I received a message
+years later from the new owner thanking me for the guidance I provided, and
+he credited me with his success in starting his career in software development, 
+which was a very proud moment for me. I never imagined I would have such an 
+impact on peoples lives when I started a gaming community.

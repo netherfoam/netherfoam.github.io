@@ -1,8 +1,10 @@
 +++
-title = 'Work History'
+title = 'Career History'
 date = 2023-12-13T11:59:54+10:00
 draft = false
 +++
+
+![Career Timeline](/history/career.png)
 
 #### FireSight (2023, 6 month contract)
 * Sole developer of the project
