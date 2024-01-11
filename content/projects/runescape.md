@@ -5,17 +5,16 @@ draft = false
 +++
 
 I spent a lot of time reverse engineering the game RuneScape to enjoy and learn. I originally saw other servers had done
-the same thing but upon inspecting their code, I
-decided I was capable of doing a better job. I started from scratch and built a server from the ground up. I used
-other projects as a reference for the network protocol and data formats, as well as the obfuscated game client code.
-Usually, when someone tells me they made a private server for a game, my eyes glaze over because they've just forked
-another project and changed a few things. That's not where I started - I started with a blank folder and a goal.
+the same thing but upon inspecting their code, I, somewhat naively, decided I was capable of doing better. I started 
+from scratch and built a server from the ground up. I used other projects as a reference for the network protocol and 
+data formats, as well as the obfuscated game client code. Usually, when someone announces they've written a private server 
+for a game, they've just forked another project. That's not where I started - I started with a blank folder and a goal.
 
 ![](/projects/bots.png)
 
-It took me a few months to get to a point where a player could log in and walk around. I worked on the project on and off,
-and eventually got to have a lot of core elements of the game: walking, npcs, dialogue, combat, skills, items, loot, 
-attacks, magic and prayers, PvP, vendors, dynamically created maps and some special interactions. Much of this was done
+It took a few months to get to a point where a player could log in and walk around. I worked on and off,
+and eventually implemented many of the core elements of the game: walking, npcs, dialogue, combat, skills, items, loot, 
+attacks, magic and prayers, PvP, vendors, dynamically created maps and some special interactions. This was done
 using a maven multi-module project with a core module and modules for various features. I had little real-world experience
 so this made no use of dependency injection, hibernate or any other frameworks. I constructed my own event system and
 plugin system, which was heavily influenced by the Bukkit server structure that I'd worked on previously.

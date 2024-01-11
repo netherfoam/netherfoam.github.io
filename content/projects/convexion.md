@@ -11,7 +11,7 @@ Convexion was a bushfire Software as a Service (SaaS) product that integrated bu
 users to understand landscape scale risk with minimal  friction. The product was developed by RedEye Apps, a Brisbane
 based startup that develops software for large asset owners. The product was responsible for static landscape analysis
 using fire history, fuel load and weather data, as well as dynamic fire simulation using Phoenix RapidFire. Much of this
-was built on top of knowledge provided by the data scientists and qualified Fire Behaviour Analysts (FBANs) at FireSight.
+was built on top of knowledge provided by the data scientists and qualified Fire Behaviour Analysts (FBANs) at RedEye.
 
 
 

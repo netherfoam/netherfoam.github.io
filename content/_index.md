@@ -6,11 +6,6 @@ draft = false
 
 ### Backend Software Engineer
 
-|  |  |  |  |
-| ------------ | ---------------------------| ---------------- | ------------------------------------------ |
-| **Location** | Brisbane, AU               | **Education**    | Bachelor of Software Engineering (Honours) |
-| **Email**    | dirk.jamieson@gmail.com    | **Hobbies**      | Programming, Technology, Gaming            |
-
 ---
 
 _A backend software engineer working in the Bushfire / GIS Space with 8+ years experience_
@@ -18,7 +13,12 @@ _A backend software engineer working in the Bushfire / GIS Space with 8+ years e
 ---
 
 ### About Me
-I’m a backend software engineer who is actively developing software for FireSight, a small company providing geospatial 
+I'm a 30 year old software engineer based in South Brisbane, Australia. I graduated from Griffith University with a
+Bachelor of Software Engineering (Honours) in 2015. I've been working professionally as a software engineer since 2015.
+I'm seeking challenges in the GIS / Bushfire space and am currently working on a contract with FireSight.
+
+### Roles
+I’m currently developing software for FireSight, a small company providing geospatial 
 bushfire advice to local councils. My role develops Python tools and [QGIS plugins](/projects/historisk/) to provide 
 utility to FireSight, allowing the analysis and extraction of historical weather, simulation output and satellite 
 imagery, to create in-depth understanding of fire risk.
@@ -36,6 +36,7 @@ I’ve spent the majority of my career developing cloud based multi-tenant Sprin
 platform, spanning across three discrete product offerings - Convexion, [RedEyeWFM](/projects/workforce_mobility/), 
 [RedEyeDMS](/projects/document_management/).
 
+### Hobbies
 Technology has always been my hobby. I’ve enjoyed personal projects, including running a large gaming community 
 [maxgamer.org](/projects/maxgamer/) that reached 75,000 registrations (2011-2015), and a handful of 
 [Minecraft plugins](/projects/bukkit/) that were distributed approximately 500,000 times (2012-2015). I’ve developed a 

@@ -6,7 +6,7 @@ theme = "m10c"
 
 [params]
   avatar = "/profile_picture.jpeg"
-  description = "A Software Engineer, with experience in Java, Spring, Python, Xarray and GIS"
+  description = "A Software Engineer with 8 years experience in Java, Spring, Python and GIS"
   favicon = "/netherfoam.png"
 
   [[params.social]]
