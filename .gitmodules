@@ -3,4 +3,4 @@
 	url = https://github.com/vaga/hugo-theme-m10c.git
 [submodule "themes/hugo-bearblog"]
 	path = themes/hugo-bearblog
-	url = https://github.com/janraasch/hugo-bearblog
+	url = https://github.com/janraasch/hugo-bearblog.git

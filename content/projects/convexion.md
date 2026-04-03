@@ -19,7 +19,7 @@ was built on top of knowledge provided by the data scientists and qualified Fire
 
 
 ## Role
-I was the technical lead for the project (2019-2023), leading a development team of 4. We used an Scrum / Agile
+I was the technical lead for the project (2019-2023), leading a development team of 4. We used a Scrum / Agile
 methodology and worked in a hybrid remote / in person environment. I was responsible for the architecture of the system,
 as well as the development of the backend services. 
 

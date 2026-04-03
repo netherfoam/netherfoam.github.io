@@ -2,9 +2,15 @@
 <content>
   {{ .Content }}
   {{ if .Data.Singular }}
+  {{ $removeFilterURL := "/" | relURL }}
+  {{ with index .Pages 0 }}
+  {{ with .CurrentSection }}
+  {{ $removeFilterURL = .RelPermalink }}
+  {{ end }}
+  {{ end }}
   <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
   <small>
-    <a href="{{ "blog" | relURL }}">Remove filter</a>
+    <a href="{{ $removeFilterURL }}">Remove filter</a>
   </small>
   {{ end }}
   <ul class="blog-posts">
@@ -29,13 +35,15 @@
     {{ end }}
   </ul>
   {{ if not .Data.Singular }}
+  {{ with .Site.Taxonomies.tags }}
   <small>
     <div>
-      {{ range .Site.Taxonomies.tags }}
+      {{ range . }}
       <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
       {{ end }}
     </div>
   </small>
+  {{ end }}
   {{ end }}
 </content>
 {{ end }}
