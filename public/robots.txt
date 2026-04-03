@@ -1,2 +1,0 @@
-User-Agent: *
-Sitemap: https://netherfoam.github.io/sitemap.xml
