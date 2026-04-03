@@ -1,11 +1,14 @@
 +++
-title = 'Workforce Mobility'
+title = '👷 Workforce Mobility'
 date = 2016-01-01
 draft = false
+description = 'Field workforce management platform for large asset owners. Technical lead for a team of 4. Java, Spring Boot, PostgreSQL, Docker, AWS.'
 +++
 
+# Workforce Mobility
+
 ## Role
-I was the technical lead for the project (2016-2019), leading a development team of 4. We used an Scrum / Agile 
+I was the technical lead for the project (2016-2019), leading a development team of 4. We used a Scrum / Agile 
 methodology and worked in person. I was responsible for the architecture of the system, as well as the development of 
 the backend services. This was the first project where I was responsible for the code architecture, and I learnt a lot
 about what worked well here.

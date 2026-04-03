@@ -1,0 +1,49 @@
+{{ define "main" }}
+<content>
+  {{ .Content }}
+  {{ if .Data.Singular }}
+  {{ $removeFilterURL := "/" | relURL }}
+  {{ with index .Pages 0 }}
+  {{ with .CurrentSection }}
+  {{ $removeFilterURL = .RelPermalink }}
+  {{ end }}
+  {{ end }}
+  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
+  <small>
+    <a href="{{ $removeFilterURL }}">Remove filter</a>
+  </small>
+  {{ end }}
+  <ul class="blog-posts">
+    {{ range .Pages }}
+    <li style="margin-bottom:1em">
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <div style="display:flex;flex-direction:column;">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Params.description }}<div style="font-size:0.85em;color:#888;margin-top:6px;">{{ . }}</div>{{ end }}
+      </div>
+    </li>
+    {{ else }}
+    <li>
+      No posts yet
+    </li>
+    {{ end }}
+  </ul>
+  {{ if not .Data.Singular }}
+  {{ with .Site.Taxonomies.tags }}
+  <small>
+    <div>
+      {{ range . }}
+      <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
+      {{ end }}
+    </div>
+  </small>
+  {{ end }}
+  {{ end }}
+</content>
+{{ end }}

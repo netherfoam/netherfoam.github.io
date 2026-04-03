@@ -1,0 +1,6 @@
+{{ define "main" }}
+{{ with .Site.Params.avatar }}
+<img src="{{ . }}" alt="Profile photo" style="float:right; width:140px; height:140px; object-fit:cover; border-radius:50%; margin: 0 0 1.5em 2em;">
+{{ end }}
+{{ .Content }}
+{{ end }}

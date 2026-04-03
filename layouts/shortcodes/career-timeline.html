@@ -1,0 +1,98 @@
+<style>
+  .vtl {
+    position: relative;
+    margin: 2em auto;
+    padding: 1.5em 1.5em 1.5em 40px;
+    font-size: 0.85em;
+    background: #f7f7f7;
+    border-radius: 6px;
+  }
+  /* Vertical line */
+  .vtl::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    bottom: 6px;
+    width: 2px;
+    background: #ddd;
+  }
+  .vtl-item {
+    position: relative;
+    margin-bottom: 1.6em;
+  }
+  /* Dot */
+  .vtl-item::before {
+    content: '';
+    position: absolute;
+    left: -28px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+  }
+  .vtl-item.redeye::before    { background: rgb(180,65,75); }
+  .vtl-item.firesight::before { background: #d97b4a; }
+  .vtl-item.aem::before       { background: #4a9e6b; }
+  .vtl-item.griffith::before  { background: #5b8dd9; }
+
+  .vtl-date {
+    color: #999;
+    font-size: 0.85em;
+    margin-bottom: 2px;
+  }
+  .vtl-company {
+    font-weight: bold;
+    margin-bottom: 1px;
+  }
+  .vtl-item.redeye    .vtl-company { color: rgb(180,65,75); }
+  .vtl-item.firesight .vtl-company { color: #d97b4a; }
+  .vtl-item.aem       .vtl-company { color: #4a9e6b; }
+  .vtl-item.griffith  .vtl-company { color: #5b8dd9; }
+
+  .vtl-role {
+    color: var(--text-color);
+  }
+</style>
+
+<div class="vtl">
+
+  <div class="vtl-item aem">
+    <div class="vtl-date">2024 – present</div>
+    <div class="vtl-company">AEM</div>
+    <div class="vtl-role">Software Engineer — Wildfire DaaS</div>
+  </div>
+
+  <div class="vtl-item firesight">
+    <div class="vtl-date">2023 – 2024</div>
+    <div class="vtl-company">FireSight</div>
+    <div class="vtl-role">Sole Developer — GIS &amp; Bushfire Analysis Tools</div>
+  </div>
+
+  <div class="vtl-item redeye">
+    <div class="vtl-date">2020 – 2023</div>
+    <div class="vtl-company">RedEye</div>
+    <div class="vtl-role">Technical Lead — Convexion Bushfire Platform</div>
+  </div>
+
+  <div class="vtl-item redeye">
+    <div class="vtl-date">2017 – 2020</div>
+    <div class="vtl-company">RedEye</div>
+    <div class="vtl-role">Backend Developer &amp; Technical Lead — Workforce Mobility</div>
+  </div>
+
+  <div class="vtl-item redeye">
+    <div class="vtl-date">2015 – 2017</div>
+    <div class="vtl-company">RedEye</div>
+    <div class="vtl-role">Junior Developer — Document Management System</div>
+  </div>
+
+  <div class="vtl-item griffith">
+    <div class="vtl-date">2012 – 2016</div>
+    <div class="vtl-company">Griffith University</div>
+    <div class="vtl-role">Bachelor of Software Engineering (Honours)</div>
+  </div>
+
+</div>

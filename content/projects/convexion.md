@@ -1,12 +1,15 @@
 +++
-title = 'Convexion'
+title = '🔥 Convexion'
 date = 2019-01-01
 draft = false
+description = 'Bushfire SaaS platform integrating landscape risk analysis and Phoenix RapidFire fire simulation. Java, Spring Boot, Python, PostGIS.'
 +++
+
+# Convexion
 
 ![](/projects/fuel_load.png)
 
-### Background
+## Background
 Convexion was a bushfire Software as a Service (SaaS) product that integrated bushfire tools into a web app to allow 
 users to understand landscape scale risk with minimal  friction. The product was developed by RedEye Apps, a Brisbane
 based startup that develops software for large asset owners. The product was responsible for static landscape analysis
@@ -15,18 +18,18 @@ was built on top of knowledge provided by the data scientists and qualified Fire
 
 
 
-### Role
-I was the technical lead for the project (2019-2023), leading a development team of 4. We used an Scrum / Agile
+## Role
+I was the technical lead for the project (2019-2023), leading a development team of 4. We used a Scrum / Agile
 methodology and worked in a hybrid remote / in person environment. I was responsible for the architecture of the system,
 as well as the development of the backend services. 
 
-### Tech Stack
+## Tech Stack
 * Java / Springboot
 * Python / Flask / Xarray / GDAL
 * PostgreSQL / PostGIS
 * Docker / Mesos / AWS
 
-### Challenges & Solutions
+## Challenges & Solutions
 
 **Tiling** was a significant challenge for the project. Without much guidance, we had to implement strategies so that
 a browser could display map data quickly. This was a trivial problem for raster data, but for vector data there is not

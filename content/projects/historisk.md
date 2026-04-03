@@ -1,8 +1,11 @@
 +++
-title = 'Historisk'
+title = '🗺️ Historisk'
 date = 2023-09-01
 draft = false
+description = 'QGIS plugin for geospatial bushfire analysis — historical fire danger, BOM weather, simulation outputs and satellite imagery.'
 +++
+
+# Historisk
 
 FireSight provides tailored geospatial analysis of bushfire conditions. This
 requires the development of custom geospatial software to help perform the
