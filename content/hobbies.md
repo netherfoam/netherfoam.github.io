@@ -8,7 +8,9 @@ weight = 4
 
 # Hobbies
 
-I've been a CrossFitter for about 8 years now. It started when RedEye had an
+![](/hobbies.jpeg)
+
+I've been a CrossFitter for roughly 10 years now. I started when RedEye had an
 office above the Brisbane CBD CrossFit gym. Between the performance tracking and
 social element with coworkers, I had a blast and have continued to keep
 it up despite moving around and the work from home evolution.
@@ -23,6 +25,6 @@ containers. In hindsight, the simplicity at home is best.
 
 In my downtime, I like to game on PC. My favourite titles recently include
 Hell Divers 2, Factorio, Ark Survival Ascended and BattleBit. I've played on
-keyboard & mouse forever and am trying to learn to play with a Steam Deck,
+keyboard & mouse forever and I'm trying to learn to play with a Steam Deck,
 which is proving a challenge to learn to use a controller. It takes a lot to
 build up the muscle memory.

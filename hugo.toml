@@ -7,7 +7,7 @@ copyright = "Copyright © 2024, Dirk Jamieson."
 theme = "hugo-bearblog"
 
 enableRobotsTXT = true
-disableKinds = ["taxonomy", "taxonomyTerm", "term"]
+disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "Backend Software Engineer"
