@@ -1,8 +1,11 @@
 +++
-title = 'Runescape Server'
+title = '⚔️ Runescape Server'
 date = 2014-01-01
 draft = false
+description = 'Private RuneScape server built from scratch via client reverse engineering. Implemented networking, combat, skills, maps and NPC systems in Java.'
 +++
+
+# Runescape Server
 
 I spent a lot of time reverse engineering the game RuneScape to enjoy and learn. I originally saw other servers had done
 the same thing but upon inspecting their code, I, somewhat naively, decided I was capable of doing better. I started 
@@ -30,12 +33,12 @@ Some community members contributed for a small period of time. The entire core p
 not including scripts and plugins which were significant. I really enjoyed the challenge this project presented. It was
 actually very helpful to maintain for a longer period of time, as I learned a lot about how to structure a project well.
 
-### Tech Stack
+## Tech Stack
 * Java / MySQL
 * Maven multi-module project
 * Some BeanShell scripting, JavaScript scripting
 
-### Challenges & Solutions
+## Challenges & Solutions
 **Interactions** were a challenge. There seemed to be two approaches to this. The first was to have a callback for every
 part of an interaction. This was not going to be suitable for me as I wanted to have a lot of interactions. The second
 was what I chose, to have green threads. These were lightweight threads which could be paused and resumed. I used the

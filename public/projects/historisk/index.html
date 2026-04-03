@@ -1,37 +1,311 @@
-<!doctype html><html lang=en-us><head><title>Historisk // Dirk Jamieson</title>
-<link rel="shortcut icon" href=/netherfoam.png><meta charset=utf-8><meta name=generator content="Hugo 0.121.1"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="John Doe"><meta name=description content><link rel=stylesheet href=/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css><meta name=twitter:card content="summary"><meta name=twitter:title content="Historisk"><meta name=twitter:description content="Background FireSight provides tailored geospatial analysis of bushfire conditions. This requires the development of custom geospatial software to help perform the analysis of environmental conditions ranging across historical weather, future forecasts and fire spread analysis.
-Historisk QGIS Plugin The Historisk QGIS plugin was created to provide tools inside QGIS which allow FireSight to perform a number of tasks, including:
-Historical Fire Danger Index Analysis Given the historical Forest Fire Danger Index (FFDI) for the past 30 years of data, provided by the Bureau of Meteorology, this tool builds a raster of an annual exceedance threshold value across the years."><meta property="og:title" content="Historisk"><meta property="og:description" content="Background FireSight provides tailored geospatial analysis of bushfire conditions. This requires the development of custom geospatial software to help perform the analysis of environmental conditions ranging across historical weather, future forecasts and fire spread analysis.
-Historisk QGIS Plugin The Historisk QGIS plugin was created to provide tools inside QGIS which allow FireSight to perform a number of tasks, including:
-Historical Fire Danger Index Analysis Given the historical Forest Fire Danger Index (FFDI) for the past 30 years of data, provided by the Bureau of Meteorology, this tool builds a raster of an annual exceedance threshold value across the years."><meta property="og:type" content="article"><meta property="og:url" content="https://netherfoam.github.io/projects/historisk/"><meta property="article:section" content="projects"><meta property="article:published_time" content="2023-09-01T00:00:00+00:00"><meta property="article:modified_time" content="2023-09-01T00:00:00+00:00"></head><body><header class=app-header><a href=https://netherfoam.github.io/><img class=app-header-avatar src=/profile_picture.jpeg alt="John Doe"></a>
-<span class=app-header-title>Dirk Jamieson</span><nav class=app-header-menu><a class=app-header-menu-item href=/>Home</a>
--
-<a class=app-header-menu-item href=/history>Career</a>
--
-<a class=app-header-menu-item href=/skills>Skills</a>
--
-<a class=app-header-menu-item href=/projects/>Projects</a>
--
-<a class=app-header-menu-item href=/contact/>Contact</a></nav><p>A Software Engineer, with experience in Java, Spring, Python, Xarray and GIS</p><div class=app-header-social><a href=https://github.com/netherfoam target=_blank rel="noreferrer noopener me"><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github"><title>My GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a><a href=https://www.linkedin.com/in/dirkjamieson/ target=_blank rel="noreferrer noopener me"><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin"><title>My LinkedIn</title><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></div></header><main class=app-container><article class=post><header class=post-header><h1 class=post-title>Historisk</h1><div class=post-meta><div><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Sep 1, 2023</div><div><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock"><title>clock</title><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>2 min read</div></div></header><div class=post-content><h2 id=background>Background</h2><p>FireSight provides tailored geospatial analysis of bushfire conditions. This
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://netherfoam.github.io/netherfoam.png" />
+<title>🗺️ Historisk | Portfolio &amp; Blog</title>
+<meta name="title" content="🗺️ Historisk" />
+<meta name="description" content="QGIS plugin for geospatial bushfire analysis — historical fire danger, BOM weather, simulation outputs and satellite imagery." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="https://netherfoam.github.io/projects/historisk/">
+  <meta property="og:site_name" content="Portfolio & Blog">
+  <meta property="og:title" content="🗺️ Historisk">
+  <meta property="og:description" content="QGIS plugin for geospatial bushfire analysis — historical fire danger, BOM weather, simulation outputs and satellite imagery.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2023-09-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-09-01T00:00:00+00:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="🗺️ Historisk">
+  <meta name="twitter:description" content="QGIS plugin for geospatial bushfire analysis — historical fire danger, BOM weather, simulation outputs and satellite imagery.">
+
+
+
+
+  <meta itemprop="name" content="🗺️ Historisk">
+  <meta itemprop="description" content="QGIS plugin for geospatial bushfire analysis — historical fire danger, BOM weather, simulation outputs and satellite imagery.">
+  <meta itemprop="datePublished" content="2023-09-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-09-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="120">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --font-main: 'JetBrains Mono', monospace;
+    --font-secondary: 'JetBrains Mono', monospace;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 6px 10px;
+    margin: -6px 4px;
+  }
+
+  content img {
+    max-width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    border: 1px solid #e8e8e8;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #7aadff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #fff;
+      --heading-color: #222;
+      --text-color: #444;
+      --link-color: #3273dc;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #222;
+    }
+  }
+</style>
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Portfolio &amp; Blog</h2>
+</a>
+<nav>
+<a href="/">About Me</a>
+
+<a href="/history/">Career History</a>
+
+<a href="/skills/">Skills</a>
+
+<a href="/hobbies/">Hobbies</a>
+
+<a href="/projects/">Projects</a>
+
+</nav>
+</header>
+  <main>
+
+<content>
+  <h1 id="historisk">Historisk</h1>
+<p>FireSight provides tailored geospatial analysis of bushfire conditions. This
 requires the development of custom geospatial software to help perform the
 analysis of environmental conditions ranging across historical weather, future
-forecasts and fire spread analysis.</p><p><img src=/projects/lfmc.png alt></p><h2 id=historisk-qgis-plugin>Historisk QGIS Plugin</h2><p>The Historisk QGIS plugin was created to provide tools inside QGIS which allow
-FireSight to perform a number of tasks, including:</p><h3 id=historical-fire-danger-index-analysis>Historical Fire Danger Index Analysis</h3><p>Given the historical Forest Fire Danger Index (<code>FFDI</code>) for the past 30 years of
-data, provided by the Bureau of Meteorology, this tool builds a raster of an
-annual exceedance threshold value across the years. This lets FireSight determine
-what historical extreme fire weather days to use for customer simulations.</p><h3 id=discovering-historical-extreme-weather-days>Discovering Historical Extreme Weather Days</h3><p>Given a high FFDI value, this algorithm determines which days exceed that value
-by the smallest amount. These are the days that are chosen for simulation.</p><h3 id=extracting-historical-weather-for-simulation>Extracting Historical Weather for Simulation</h3><p>Weather is provided by the Bureau of Meteorology in a given format. The relevant
-days must be extracted and converted into NetCDF format, while remaining
-compatible with the simulation software which doesn&rsquo;t support the modern NetCDF
-schema.</p><h3 id=dangerous-ignitions>Dangerous Ignitions</h3><p>Given the output of simulations, determine which ignitions caused the most area
-to be burnt, and create an impact frequency raster of those ignitions. This
-shows where the worst fires are starting and where they&rsquo;re burning.</p><h3 id=impact-ignitions>Impact Ignitions</h3><p>Given a bounding area of interest, a high density town for example, determine
-where ignitions are that intersect with the town and cause a high probability
-of house loss.</p><h3 id=historical-burn-condition-analysis>Historical Burn Condition Analysis</h3><p>Customers will have areas that are burned at intervals to reduce the risk of
-bushfire. They have prescribed ranges for weather conditions, usually a
-combination of relative humidity, temperature, wind direction and speed. This
-tool takes the parameters and filters days from historical weather at a location
-to determine the frequency that suitable days occur, and the parameters that are
-most commonly excluding days from being suitable. This made use of a dynamic
-decision tree to speed performance, tweaking the order of checks to increase the
-speed of the algorithm when scanning a significant quantity of rasters.</p><h2 id=heading></h2></div><div class=post-footer></div></article></main></body></html>
+forecasts and fire spread analysis. Given my previous experience with Python,
+and the toolset already available in QGIS, creating a plugin was the logical
+choice.</p>
+<p><img src="/projects/lfmc.png" alt=""></p>
+<p>The tasks that the tools can perform include:</p>
+<ul>
+<li>Historical analysis for fire danger indexes to determine annual exceedance thresholds</li>
+<li>Discovery of historical extreme weather dates for chosen areas</li>
+<li>Weather extraction to formats suitable for fire simulation</li>
+<li>Analysing fire simulation output for dangerous ignitions</li>
+<li>Scanning historical weather for suitable burn conditions to determine the
+suitability of prescribed conditions</li>
+</ul>
+<p><strong>Tech Stack</strong></p>
+<ul>
+<li>Python 3.8</li>
+<li>QGIS 3.26</li>
+<li>GDALXarray</li>
+<li>Pandas</li>
+</ul>
+
+</content>
+
+
+
+<p>
+  
+</p>
+
+  </main>
+  <footer>Dirk Jamieson &mdash;
+<a href="https://github.com/netherfoam" aria-label="GitHub">
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle">
+    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/>
+  </svg>
+</a>
+&middot;
+<a href="https://www.linkedin.com/in/dirkjamieson/" aria-label="LinkedIn">
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle">
+    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+  </svg>
+</a>
+</footer>
+
+  
+</body>
+
+</html>

@@ -1,29 +1,37 @@
 +++
-title = 'Dirk Jamieson'
+title = 'About Me'
 date = 2023-12-13T11:59:54+10:00
 draft = false
+menu = "main"
+weight = 1
 +++
 
-### Backend Software Engineer
+# Backend Software Engineer
 
 ---
 
-_A backend software engineer working in the Bushfire / GIS Space with 8+ years experience_
+_A backend software engineer working in the Bushfire / GIS Space with 10+ years experience_
 
 ---
 
-### About Me
-I'm a 30 year old software engineer based in South Brisbane, Australia. I graduated from Griffith University with a
-Bachelor of Software Engineering (Honours) in 2015. I've been working professionally as a software engineer since 2015.
-I'm seeking challenges in the GIS / Bushfire space and am currently working on a contract with FireSight.
+## About Me
+I'm a Software Engineer based in South Brisbane, Australia. I graduated from Griffith University with a
+Bachelor of Software Engineering (Honours) in 2015. I've been working professionally as a software engineer since then.
+I'm seeking challenges in the GIS / Bushfire space and am currently working on a fuel modelling pipeline with AEM.
 
-### Roles
-I’m currently developing software for FireSight, a small company providing geospatial 
-bushfire advice to local councils. My role develops Python tools and [QGIS plugins](/projects/historisk/) to provide 
+## Roles
+I'm currently developing software for [aem.eco](https://aem.eco/), an American environmental monitoring organisation with an interest in 
+bushfire (or wildfire, as they call it) services. My role is focused on building a Python/Dask/Xarray/GDAL pipeline that
+consumes a variety of data sources (Sentinel-2, BOM forecasts, and a huge variety of published datasets) and constructs
+weekly fuel maps indicating fuel types, canopy height and density and drought conditions. These fuel maps are used in
+a bushfire simulator to understand fire spread behaviour.
+
+I previously worked for [FireSight](https://firesight.com.au/), a small company providing geospatial 
+bushfire advice to local councils. My role developed Python tools and [QGIS plugins](/projects/historisk/) to provide 
 utility to FireSight, allowing the analysis and extraction of historical weather, simulation output and satellite 
 imagery, to create in-depth understanding of fire risk.
 
-Previously, I'd been leading the development and architecture of the RedEye [Bushfire Platform Convexion](/projects/convexion/), 
+Further back, I'd been leading the development and architecture of the RedEye [Bushfire Platform Convexion](/projects/convexion/), 
 a SaaS platform, which analysed landscape scale risk of bushfire and integrated Phoenix RapidFire, a fire simulation tool, 
 into a web interface hosted in the cloud. This was created with Java, Spring Boot, Python and PostgreSQL.
 
@@ -36,7 +44,7 @@ I’ve spent the majority of my career developing cloud based multi-tenant Sprin
 platform, spanning across three discrete product offerings - Convexion, [RedEyeWFM](/projects/workforce_mobility/), 
 [RedEyeDMS](/projects/document_management/).
 
-### Hobbies
+## Hobbies
 Technology has always been my hobby. I’ve enjoyed personal projects, including running a large gaming community 
 [maxgamer.org](/projects/maxgamer/) that reached 75,000 registrations (2011-2015), and a handful of 
 [Minecraft plugins](/projects/bukkit/) that were distributed approximately 500,000 times (2012-2015). I’ve developed a 

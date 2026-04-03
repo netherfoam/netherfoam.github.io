@@ -1,8 +1,11 @@
 +++
-title = 'Bukkit'
+title = '⛏️ Bukkit'
 date = 2012-01-01
-draft = true
+draft = false
+description = 'Open source Minecraft plugins distributed ~500,000 times. Written in Java during university, including an economy plugin and server utilities.'
 +++
+
+# Bukkit
 
 While running the [MaxGamer](/projects/maxgamer/) community, I wrote a number of plugins and publicly released them on
 Bukkit. These plugins were then available for other server owners to configure and use within their own communities. 
@@ -14,7 +17,7 @@ young when I first started writing these. Their quality is not excellent by any 
 because of the fact I managed to produce a working product that was used by tens of thousands of players. Development
 was spread across 2012-2014.
 
-### QuickShop
+## QuickShop
 My first plugin was QuickShop, a plugin that allowed players to create shops to sell items to other players. This was
 inspired by a number of other plugins that all did something really well, but none of them did everything well. The core
 features I wanted to include were:
@@ -28,7 +31,7 @@ features I wanted to include were:
 This plugin was a huge success and was downloaded over 100,000 times. Since my exit from the Minecraft community, it is
 no longer maintained, unfortunately.
 
-### MaxBans
+## MaxBans
 My second plugin was MaxBans, a plugin that allowed server administrators to administer penalties to players. This was
 built for the same purpose as QuickShop - I liked features from a number of other plugins, but none of them did them all.
 Specifically, I enjoyed having a system of warnings - 3 strikes, and you're out - with each strike becoming more severe.

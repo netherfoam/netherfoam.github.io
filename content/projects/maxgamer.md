@@ -1,8 +1,11 @@
 +++
-title = 'MaxGamer'
+title = '🎮 MaxGamer'
 date = 2010-01-01
 draft = false
+description = 'Minecraft community server reaching 75,000 registrations. Custom PHP/MySQL web platform with phpBB integration.'
 +++
+
+# MaxGamer
 
 ![](/projects/MaxGamer.png)
 

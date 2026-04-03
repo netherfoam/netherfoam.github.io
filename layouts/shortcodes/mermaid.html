@@ -1,0 +1,35 @@
+<style>
+  .mermaid svg .tick line { stroke: #ddd !important; }
+  .mermaid svg .tick text { fill: #999 !important; }
+  .mermaid svg .grid .tick line { stroke: #ddd !important; }
+</style>
+
+<div class="mermaid">
+{{- .Inner -}}
+</div>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'base',
+    themeVariables: {
+      critBkgColor: 'rgb(180,65,75)',
+      critBorderColor: 'rgb(150,50,60)',
+      activeTaskBkgColor: '#d97b4a',
+      activeTaskBorderColor: '#b85f2f',
+      taskBkgColor: '#4a9e6b',
+      taskBorderColor: '#357a52',
+      taskTextColor: '#fff',
+      taskTextOutsideColor: '#444',
+      taskTextClickableColor: '#fff',
+      fontFamily: "'JetBrains Mono', monospace",
+      fontSize: '16px',
+    },
+    gantt: {
+      barHeight: 30,
+      barGap: 8,
+      topPadding: 50,
+      fontSize: 16,
+    }
+  });
+</script>
