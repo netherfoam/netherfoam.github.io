@@ -8,39 +8,57 @@ weight = 3
 
 # Skills
 
-## Software Development Lifecycle
-* Agile, Scrum
-* Scoping, Estimation, Planning
-* Application Architecture Design, Database Design
-* Continuous Integration, Continuous Deployment
-* Code Review, Mentoring
-* Documenting
+---
 
-## Languages and Frameworks
-* Java (7 years professional, plus 4 years hobby), Spring Boot (7 years)
-* SQL (8 years professional), Postgres (7 years), MySQL (1.5 years)
-* PHP (1.5 years professional), Symfony (1.5 years)
-* Python (1.5 year professional)
+## Languages & Frameworks
+
+{{< skill-card >}}
+{{< skill-tier "Expert" "#4a9e6b" >}}
+{{< pill "Java 8–17" >}} {{< pill "Spring Boot 2.7" >}} {{< pill "SQL" >}} {{< pill "PostgreSQL 12" >}} {{< pill "Python 3.9–3.11" >}}
+
+{{< skill-tier "Proficient" "#5b8dd9" >}}
+{{< pill "PHP 5" >}} {{< pill "Symfony 2.7" >}}
+
+{{< skill-tier "Familiar" "#aaa" >}}
+{{< pill "MySQL 5" >}}
+{{< /skill-card >}}
+
+## Infrastructure & DevOps
+
+{{< skill-tier "AWS" "#d97b4a" >}}
+{{< pill "EC2" >}} {{< pill "RDS" >}} {{< pill "S3" >}} {{< pill "SNS" >}} {{< pill "SQS" >}} {{< pill "IAM" >}} {{< pill "ECS" >}}
+
+{{< skill-tier "Tools" "#d97b4a" >}}
+{{< pill "Docker" >}} {{< pill "Kubernetes" >}} {{< pill "Terraform" >}} {{< pill "GitHub Actions" >}} {{< pill "TeamCity" >}} {{< pill "Git" >}} {{< pill "GitHub" >}} {{< pill "GitLab" >}} {{< pill "Jira" >}} {{< pill "Confluence" >}} {{< pill "Apache Mesos" >}} {{< pill "Marathon" >}} {{< pill "IntelliJ IDEA" >}} {{< pill "PyCharm" >}} {{< pill "DataGrip" >}} {{< pill "Ubuntu" >}}
+
+## Databases & Storage
+
+{{< pill "PostgreSQL 12" >}} {{< pill "MySQL 5" >}} {{< pill "Redis 5–6" >}} {{< pill "ElasticSearch 7" >}}
+
+## Geospatial
+
+{{< pill "QGIS 3.x" >}} {{< pill "QGIS Plugin Dev" >}} {{< pill "GeoServer" >}} {{< pill "GDAL 3.10" >}} {{< pill "Rasterio" >}} {{< pill "GeoTIFF" >}} {{< pill "PostGIS" >}} {{< pill "Dask" >}} {{< pill "Xarray" >}} {{< pill "Pandas" >}} {{< pill "NumPy" >}}
+
+## Practices
+
+{{< pill "Software Engineering" >}}
+{{< pill "Technical Leadership" >}}
+{{< pill "Backend Development" >}}
+{{< pill "REST APIs" >}}
+{{< pill "Data Pipelines" >}}
+{{< pill "Agile / Scrum" >}}
+{{< pill "Architecture Design" >}}
+{{< pill "Database Design" >}}
+{{< pill "CI/CD" >}}
+{{< pill "Estimation & Planning" >}}
+{{< pill "Code Review" >}}
+{{< pill "Mentoring" >}}
+{{< pill "Technical Documentation" >}}
 
 ## Domains
-* Geospatial Information Systems (GIS)
-* Bushfire Risk Management
-* Digital Twin
-* Workforce Management
-* Engineering Drawing Management
 
-## AWS
-* EC2
-* RDS
-* S3
-* SNS
-* SQS
-* IAM
-* & more..
-
-### Tools
-* Ubuntu, Windows
-* Git, GitHub, GitLab, TeamCity, Docker
-* Apache Marathon, Mesos
-* Postgres, MySQL, Redis, ElasticSearch
-* IntelliJ Suite (IDEA, DataGrip, PHPStorm, PyCharm)
+{{< pill "Geospatial Information Systems" >}}
+{{< pill "Bushfire Risk Management" >}}
+{{< pill "Digital Twin" >}}
+{{< pill "Workforce Management" >}}
+{{< pill "Engineering Drawing Management" >}}

@@ -19,6 +19,21 @@
     }
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    color: #3a3a3a;
+  }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.3em; }
+  h3 { font-size: 1.1em; }
+  h4, h5, h6 { font-size: 1em; }
+
+  .job-meta {
+    color: #999;
+    font-size: 0.85em;
+    margin-top: -10px;
+    margin-bottom: 14px;
+  }
+
   a {
     text-decoration: none;
   }
@@ -39,5 +54,37 @@
   a:hover {
     text-decoration: none;
     color: #7aadff;
+  }
+
+  .skill-card {
+    background: #f7f7f7;
+    border-radius: 6px;
+    padding: 1em 1.5em;
+    margin: 1em 0;
+  }
+
+  .skill-pill {
+    display: inline-block;
+    background: transparent;
+    border: 1px solid #bbb;
+    border-radius: 12px;
+    padding: 3px 12px;
+    margin: 3px 4px;
+    font-size: 0.85em;
+    transition: border-color 0.15s, color 0.15s;
+    cursor: default;
+  }
+
+  .skill-pill:hover {
+    border-color: #5b8dd9;
+    color: #5b8dd9;
+  }
+
+  .skill-tier-label {
+    font-size: 0.78em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #888;
+    margin: 10px 0 4px 0;
   }
 </style>

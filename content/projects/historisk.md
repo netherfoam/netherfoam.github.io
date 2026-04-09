@@ -7,6 +7,8 @@ description = 'QGIS plugin for geospatial bushfire analysis — historical fire 
 
 # Historisk
 
+---
+
 FireSight provides tailored geospatial analysis of bushfire conditions. This
 requires the development of custom geospatial software to help perform the
 analysis of environmental conditions ranging across historical weather, future

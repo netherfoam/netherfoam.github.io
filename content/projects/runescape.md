@@ -7,6 +7,8 @@ description = 'Private RuneScape server built from scratch via client reverse en
 
 # Runescape Server
 
+---
+
 I spent a lot of time reverse engineering the game RuneScape to enjoy and learn. I originally saw other servers had done
 the same thing but upon inspecting their code, I, somewhat naively, decided I was capable of doing better. I started 
 from scratch and built a server from the ground up. I used other projects as a reference for the network protocol and 

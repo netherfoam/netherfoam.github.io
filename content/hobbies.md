@@ -3,10 +3,12 @@ title = 'Hobbies'
 date = 2024-02-27T12:00:00+10:00
 draft = false
 menu = "main"
-weight = 4
+weight = 5
 +++
 
 # Hobbies
+
+---
 
 ![](/hobbies.jpeg)
 
@@ -24,7 +26,6 @@ servers they fell too short. So it became a single PC running a set of docker
 containers. In hindsight, the simplicity at home is best.
 
 In my downtime, I like to game on PC. My favourite titles recently include
-Hell Divers 2, Factorio, Ark Survival Ascended and BattleBit. I've played on
-keyboard & mouse forever and I'm trying to learn to play with a Steam Deck,
-which is proving a challenge to learn to use a controller. It takes a lot to
-build up the muscle memory.
+Helldivers 2, Valheim and Factorio. I've played on keyboard & mouse forever, 
+and I'm trying to learn to play with a Steam Deck, which is proving a challenge 
+to learn to use a controller. It takes a lot to build up the muscle memory.

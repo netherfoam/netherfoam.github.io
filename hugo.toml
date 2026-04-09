@@ -9,6 +9,13 @@ theme = "hugo-bearblog"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.goldmark.parser.attribute]
+  block = true
+  title = true
+
 [params]
   description = "Backend Software Engineer"
   favicon = "/netherfoam.png"

@@ -44,10 +44,3 @@ I’ve spent the majority of my career developing cloud based multi-tenant Sprin
 platform, spanning across three discrete product offerings - Convexion, [RedEyeWFM](/projects/workforce_mobility/), 
 [RedEyeDMS](/projects/document_management/).
 
-## Hobbies
-Technology has always been my hobby. I’ve enjoyed personal projects, including running a large gaming community 
-[maxgamer.org](/projects/maxgamer/) that reached 75,000 registrations (2011-2015), and a handful of 
-[Minecraft plugins](/projects/bukkit/) that were distributed approximately 500,000 times (2012-2015). I’ve developed a 
-playable [RuneScape server](/projects/runescape/) by reverse engineering the game client which proved to be a fun and 
-exciting challenge (2013-2017). I particularly have enjoyed the interaction with the community that these projects 
-provided.

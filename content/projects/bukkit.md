@@ -7,6 +7,8 @@ description = 'Open source Minecraft plugins distributed ~500,000 times. Written
 
 # Bukkit
 
+---
+
 While running the [MaxGamer](/projects/maxgamer/) community, I wrote a number of plugins and publicly released them on
 Bukkit. These plugins were then available for other server owners to configure and use within their own communities. 
 This was my first attempt at open source software and I was surprised to see the number of downloads and positive feedback

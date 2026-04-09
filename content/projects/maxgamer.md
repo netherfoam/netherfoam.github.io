@@ -7,6 +7,8 @@ description = 'Minecraft community server reaching 75,000 registrations. Custom 
 
 # MaxGamer
 
+---
+
 ![](/projects/MaxGamer.png)
 
 This was a community I operated and moderated between 2011-2014. It was a

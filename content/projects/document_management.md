@@ -7,6 +7,8 @@ description = 'Engineering drawing management system for large asset owners. PHP
 
 # RedEye DMS
 
+---
+
 ## Role
 I was a junior developer on the RedEye DMS project. I was responsible for feature development and bug fixes. As I had a
 talent for MySQL having used it a number of times before, I was also responsible for optimisation of some complex MySQL 
