@@ -71,11 +71,16 @@ snapshots.
 After a power supply failed, I replaced it and learned mixing cables from modular power supplies, although the pins
 physically fit, will destroy equipment. I discovered this after frying an entire RAID array of disk drives during the
 drive shortage in 2026. That hurt to learn - and my backups were a year old! Fortunately I recovered data from most
-sources. I knew I needed to do backups more often, but I was lazy and the effort was high. Well, that pushed me to
-create a bash script run on every SSH connection to check if a backup was needed. If it has been a while since my last
+sources. I knew I needed to do backups more often, but I was lazy and the effort was high.
+
+RAID protects against a drive failure. It doesn't protect against human error, accidental deletion, or, apparently,
+mixing modular PSU cables. Who'd have thought?
+
+Well, that pushed me to create a bash script run on every SSH connection to check if a backup was needed. If it has been a while since my last
 backup, I'm now prompted with a simple `31 days since last backup` and `Backup now? [y/n]`. That mounts my external
 drive (or complains the drive is unplugged) and begins the backup sequence. This way, I don't need to remember to do
 anything except occasionally SSH in (I do that anyway) and plug in the backup drive. 
 
-RAID protects against a drive failure. It doesn't protect against human error, accidental deletion, or, apparently,
-mixing modular PSU cables. Who'd have thought?
+I've said for a long time for my career: Make it so doing the right thing is the easy thing to do. I'm no exception to
+the rule.
+
